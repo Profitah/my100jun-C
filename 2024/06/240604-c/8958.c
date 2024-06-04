@@ -12,7 +12,7 @@ int main() {
         int totalScore = 0, consecutiveCount = 0; 
 
         for (int i = 0; i < strlen(inputStr); i++) {
-            if (inputString[i] == 'O') {  
+            if (inputStr[i] == 'O') {  
                 consecutiveCount++;  
                 totalScore += consecutiveCount;  
             } else {  
